@@ -30,5 +30,5 @@
 
 
 ## HTTPD example 
-docker run -d -v /opt/otx_docker_demo/web1/:/usr/local/apache2/htdocs/ --name=english_webserver -p 8090:80 httpd:2.4
-docker run -d -v /opt/otx_docker_demo/web2/:/usr/local/apache2/htdocs/ --name=spanish_webserver -p 8091:80 httpd:2.2
+```docker run -d -v /opt/otx_docker_demo/web1/:/usr/local/apache2/htdocs/ --name=english_webserver -p 8090:80 httpd:2.4```
+```docker run -d -v /opt/otx_docker_demo/web2/:/usr/local/apache2/htdocs/ --name=spanish_webserver -p 8091:80 httpd:2.2```
